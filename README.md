@@ -27,22 +27,28 @@ ollama run deepseek-r1:7b
 # To run the 32B version (Requires ~20GB VRAM)
 ollama run deepseek-r1:32b
 
-💡 Hardware Optimization Tips
+```
+
+💡 **Hardware Optimization Tips**
 Unified Memory: Apple Silicon (M2/M3/M4 Max) is highly efficient for DeepSeek because the GPU can access the entire system RAM.
 
 Quantization: Use GGUF or EXL2 formats to reduce the model size by 50-70% with minimal loss in "intelligence".
 
 Flash Attention: Ensure your environment supports Flash Attention 2 to speed up inference by up to 2x.
 
-📖 Deep Dive & Performance Benchmarks
+📖 **Deep Dive & Performance Benchmarks**
 For a full breakdown of token-per-second (TPS) benchmarks across different NVIDIA and Apple hardware, read our detailed analysis:
 
-👉 Read the full guide: [Automating Enterprise Workflows with Gemini 3 Pro](https://aidevdayindia.org/blogs/free-google-ai-tools-for-business/google-ai-studio-vs-gemini-api-pricing.html)
+👉 Read the full guide: [DeepSeek R1 Hardware Guide](https://aidevdayindia.org/blogs/deepseek-developer-ecosystem-guide/hardware-requirements-for-running-deepseek-r1-locally.html)
 
-What you will learn in the full article:
+**What you will learn in the full article:**
 Multi-GPU Setup: How to link two RTX 4090s for the 70B model.
 
 Mac vs. PC: Detailed ROI analysis for local LLM development.
 
 Power Consumption: Managing the heat and electricity of a local AI server.
+
+**📄 License**
+
+Distributed under the MIT License. See LICENSE for more information.
 
