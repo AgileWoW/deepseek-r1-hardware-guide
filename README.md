@@ -37,7 +37,7 @@ Flash Attention: Ensure your environment supports Flash Attention 2 to speed up 
 📖 Deep Dive & Performance Benchmarks
 For a full breakdown of token-per-second (TPS) benchmarks across different NVIDIA and Apple hardware, read our detailed analysis:
 
-👉 https://aidevdayindia.org/blogs/deepseek-developer-ecosystem-guide/hardware-requirements-for-running-deepseek-r1-locally.html
+👉 [DeepSeek R1 Hardware Guide: Build the Perfect Local AI Rig](https://aidevdayindia.org/blogs/deepseek-developer-ecosystem-guide/hardware-requirements-for-running-deepseek-r1-locally.html)
 
 What you will learn in the full article:
 Multi-GPU Setup: How to link two RTX 4090s for the 70B model.
